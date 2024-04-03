@@ -15,12 +15,3 @@ The three class templates that can be implemented are:
 AVLSet<ElementType>, which is an AVL tree (or can be configured to skip the balancing and act as a binary search tree).
 SkipListSet<ElementType>, which is a skip list.
 HashSet<ElementType>, which is a hash table with separate chaining, implemented as a dynamically-allocated array of linked lists.
-Note that only a handful of operations are supported in each, and the comments in their header files specify specific requirements and limitations.
-
-Running
-The provided directory in your project directory contains an example implementation of the Set<ElementType> class template, check out VectorSet.hpp, a set implemented using a std::vector as its underlying storage.
-
-A set of sanity-checking unit tests has been provided for each of the five classes that can be implemented in this project. Their role is not to test that the functionality works correctly but to verify that your code remains compatible with the unit tests that will be used to grade your work.
-
-Acknowledgments
-This project is part of a course, and its instructions have been provided as part of the course materials.

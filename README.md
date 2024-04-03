@@ -4,7 +4,7 @@ This is a project to build a spell checker, similar to those found in word proce
 The program will check spelling in the input text and report on misspellings, along with suggestions about potentially correct spellings. The project aims to implement efficient search structures critical to the spell checker's performance, capable of searching for words in a potentially large word set and providing suggestions for each misspelling.
 
 Implementation
-The project provides a partially-working spell checker that can be configured via standard input (i.e., std::cin) and writes its output to standard output (i.e., std::cout). The program is capable of doing two different things:
+The project provides a spell checker that can be configured via standard input (i.e., std::cin) and writes its output to standard output (i.e., std::cout). The program is capable of doing two different things:
 
 Given a file containing a word set and another file containing input text, it can check spelling in the input text and report on misspellings, along with suggestions about potentially correct spellings.
 Given a file containing a word set and another file containing input text, it can do the work of a spell checker without displaying a result, instead displaying the CPU time required to perform the task.
